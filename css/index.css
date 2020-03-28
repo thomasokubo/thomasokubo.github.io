@@ -36,6 +36,44 @@ html, body {
   margin: 16px 0;
 }
 
+.text-small {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.text-medium {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.text-large {
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.color-grey {
+  color: #777777;
+}
+
+.color-blue {
+  color: #4a63e7;
+}
+
+.color-red {
+  color: rgb(255, 89, 89);
+}
+
+.background-blue {
+  background-color: #4a63e7;
+}
+
+.background-red {
+  background-color: rgb(255, 89, 89);
+}
+
 .author-name {
   font-family: "Open Sans", sans-serif;
   color: white;
@@ -100,13 +138,6 @@ html, body {
   box-shadow: 0px 6px 15px 0px rgba(74,99,231,.2);
 }
 
-.card-title {
-  font-family: Poppins, sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  margin: 0;
-}
-
 .title-decorator {
   display:inline-block;
   background-color: rgb(255, 89, 89);
@@ -129,16 +160,14 @@ html, body {
 }
 
 .greeting {
-  font-family: Poppins, sans-serif;
+  /* font-family: Poppins, sans-serif;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 700; */
   margin: 0; 
 }
 
 .presenting {
   margin: 24px 0;
-  font-family: "Open Sans", sans-serif;
-  color: rgb(119, 119, 119);
 }
 
 .timeline {
@@ -164,25 +193,7 @@ html, body {
   z-index: 200;
 }
 
-.entry-subtitle {
-  font-family: "Open Sans", sans-serif;
-  color: #4a63e7;
-  font-size: 14px;
-  font-weight: 400;
-  margin-bottom: 8px;
-}
-
-.entry-text {
-  font-family: "Open Sans", sans-serif;
-  color: #777777;
-  font-size: 14px;
-  font-weight: 400;
-}
-
 .entry-body-header {
-  font-family: Poppins, sans-serif;
-  font-size: 18px;
-  font-weight: 700;
   margin-bottom: 16px;
 }
 
