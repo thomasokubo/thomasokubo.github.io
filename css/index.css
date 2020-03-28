@@ -122,6 +122,19 @@ html, body {
   margin-top: 56px;
 }
 
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.greeting {
+  font-family: Poppins, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0; 
+}
+
 .presenting {
   margin: 24px 0;
   font-family: "Open Sans", sans-serif;
@@ -204,4 +217,71 @@ html, body {
   border-radius: 50%;
   left: calc(20% + 24px);
   z-index: 200;
+}
+
+
+@media only screen and (min-width: 1200px) {
+  html, body {
+    height: 145%;
+  }
+
+  #wrapper {
+    width: 875px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 72px;
+  }
+
+  #header {
+    display: none;
+  }
+
+  .card-content {
+    flex-direction: row;
+  }
+
+  .greeting {
+    margin-left: 32px;
+  }
+
+  .presenting {
+    margin-left: 32px;
+  }
+
+  .info {
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+  html, body {
+    height: 155%;
+  }
+
+  #wrapper {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 72px;
+  }
+
+  #header {
+    display: none;
+  }
+
+  .card-content {
+    flex-direction: row;
+  }
+
+  .greeting {
+    margin-left: 32px;
+  }
+
+  .presenting {
+    margin-left: 32px;
+  }
+
+  .info {
+    justify-content: center;
+  }
 }
