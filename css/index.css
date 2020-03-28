@@ -212,7 +212,7 @@ html, body {
 
 @media only screen and (min-width: 1200px) {
   html, body {
-    height: 145%;
+    height: 160%;
   }
 
   #wrapper {
@@ -245,7 +245,7 @@ html, body {
 
 @media only screen and (min-width: 600px) and (max-width: 1200px) {
   html, body {
-    height: 155%;
+    height: 160%;
   }
 
   #wrapper {
