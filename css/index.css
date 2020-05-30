@@ -170,16 +170,24 @@ html, body {
   width: 100%;
 }
 
-.margin-top-small {
+.ml-2 {
+  margin-left: 16px;
+}
+
+.ml-3 {
+  margin-left: 24px;
+}
+
+.mr-2 {
+  margin-right: 16px;
+}
+
+.mt-2 {
   margin-top: 16px;
 }
 
-.margin-top-medium {
+.mt-4 {
   margin-top: 32px;
-}
-
-.margin-right-small {
-  margin-right: 16px;
 }
 
 .presenting {
@@ -190,7 +198,7 @@ html, body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  margin: 16px 0;
+  margin: 16px auto;
 }
 
 .profile-image-small {
@@ -257,10 +265,6 @@ html, body {
   width: 1px;
   position: absolute;
   left: calc(20% + 30px);
-}
-
-.timeline-checkpoint {
-  margin-left: 24px;
 }
 
 .timeline-checkbox-start {
